@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    
+    /* background-image: url( "https://i0.wp.com/www.globaltrademag.com/wp-content/uploads/2020/12/Untitled-design.png?w=994&ssl=1"); */
+}
+.img {
+    opacity: 0.5;
+  }
+  .imgclass{
+    width: 400px ;
+  }
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 5px; */
+    background-color: rgb(247, 250, 255);
+    align-items: center
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+  }
+  li{
+    padding: 10px; 
+  }
+ .btn1{
+    margin-right: 10px;
+
+  } 
+  .ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(247, 250, 255);
+    align-items: center
+}
+.trade{
+    padding: 20px;
+
+}
+.rightdiv{
+    padding: 15px;
+
+}
+/* second part */
+ .imagediv{
+  width: 80%;
+
+ }
+ .leftright{
+  display: flex;
+  justify-content: space-evenly;
+    align-items: center
+
+ }
+ .left{
+  width: 50%;
+  padding: 50px;
+ }
+ .right{
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+ }
+
+.recommendpart{
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.videos{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 36px;
+}
+.imgpad{
+
+  display: flex;
+  flex-direction: column;
+  width: 400px ;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  /* box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);  border-radius: 1rem; */
+  overflow: hidden;
+}
+.imgpad1{
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 400px ;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: 5px  5px 5px 10px #888888; */
+
+}
+.height1{
+  height: 250px;
+  display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.btn-sm{
+  width: 130px;
+ border-radius: 1.2rem;
+
+}
+
+
+.p1{
+  margin-top: 8px;
+
+}
+
+.test1{
+ padding: 100px;
+ background-color: #ffe0ff;
+
+}
+
+.testimonials
+  {
+    display: flex;
+    flex-direction: row;
+
+}
+.footer1
+  {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.footerdiv
+  {
+    display: flex;
+    justify-content: center;
+    background-color: #c9eeff;
+}
+
+.insta
+  {
+    display: flex;
+    justify-content: space-evenly;
+}
+.href{
+  color: black;
+}
+nav .menu-btn i{
+  display: none;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 1230px) {
+  /* For mobile phones: */
+
+
+
+nav .menu-btn i{
+  display: block;
+}
+.menubar{
+  display: flex;
+  align-items: center;
+}
+.hone{
+  font-size: 1.8rem;
+}
+
+
+h1{
+  font-size: 1.8rem;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.loginbtn{
+  
+    display: flex;
+    flex-direction: column;
+
+}
+.btnmargin{
+  margin-bottom: 10px;
+}
+.imgpad1{
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 248px ;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: 5px  5px 5px 10px #888888; */
+
+}
+.btnfree{
+  
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.pwel{
+  padding: 30px;
+
+}
+
+.imgclass{
+  width: auto;
+}
+
+.videos{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+  width: 100%;
+  align-items: center;
+}
+.testimonials{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+ .leftright{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    align-items: center
+
+ }
+ .ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgb(247, 250, 255);
+  align-items: flex-start;
+ 
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 5px; */
+  background-color: rgb(247, 250, 255);
+  align-items: center;
+}
+.right {
+  margin: auto;
+  margin-top: 40px;
+}
+ .left{
+width: auto; 
+ padding: 0;
+ }
+ .imgpad {
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  width: 248px;
+  border-radius: 1rem;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  overflow: hidden;
+
+}
+.test1{
+  width: auto;
+  padding: 40px;
+}
+
+
+
+.footerdiv{
+  margin-top: 20px;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  /* height: 40px; */
+  background: rgb(136, 209, 255);
+}
+
+
+
+
+
+
+
+}
+
+ 
+
+
